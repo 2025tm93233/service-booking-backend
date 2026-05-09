@@ -2,8 +2,6 @@
 
 ## AI Prompts Used for Debugging and Issue Resolution
 
-During the development of the Service Booking Backend application, I utilized AI assistance to debug and resolve various issues. Below is a log of the prompts I used with the AI assistant, along with the context and solutions provided. This demonstrates responsible AI usage for problem-solving rather than code generation.
-
 ### 1. Swagger UI Access Issue
 **Context:** After implementing Swagger configuration, the Swagger UI was not accessible at localhost:8080/swagger, returning a 404 error.
 
