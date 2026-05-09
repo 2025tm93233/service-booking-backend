@@ -65,6 +65,24 @@ The API will be available at: `http://localhost:8080`
 - `GET /api/auth/me` - Get current user
 - `POST /api/auth/logout` - User logout
 
+### Users
+
+- `GET /api/users` - Get all users (requires authentication)
+- `GET /api/users/{id}` - Get user by ID (requires authentication)
+- `GET /api/users/role/{role}` - Get users by role (CUSTOMER/PROVIDER/ADMIN) (requires authentication)
+- `POST /api/users` - Create new user (requires authentication)
+- `PUT /api/users/{id}` - Update user (requires authentication)
+- `DELETE /api/users/{id}` - Delete user (requires authentication)
+
+### Categories
+
+- `GET /api/categories` - Get all categories
+- `GET /api/categories/{id}` - Get category by ID
+- `GET /api/categories/slug/{slug}` - Get category by slug
+- `POST /api/categories` - Create new category (requires authentication)
+- `PUT /api/categories/{id}` - Update category (requires authentication)
+- `DELETE /api/categories/{id}` - Delete category (requires authentication)
+
 ### Services
 
 - `GET /api/services` - Get all services (with pagination)
